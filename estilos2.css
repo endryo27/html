@@ -1,0 +1,39 @@
+/*logo da pagina*/
+header h1{
+    color: #927d7dc7;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(235, 244, 244, 0.97);
+    padding: 1em;
+    }
+
+/*imagem do header*/
+header img{
+    text-align: center;
+    width: 750px;
+    max-width: 1000px;
+    margin: 40px;
+    border-image: auto;
+}
+/*corpo da pagina*/
+body{
+    padding: 1em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(248, 0, 0);
+}
+a{
+    color: black;
+    
+}
+/*botões de interação*/
+li{
+    text-align: center;
+
+}
+/*link sobre o autor*/
+footer{
+    color:black;
+    text-align: center;
+}
