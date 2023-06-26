@@ -5,12 +5,16 @@ header h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     background-color: rgba(235, 244, 244, 0.97);
-    padding: 1em;
+    position: fixed;
+    top: 1px;
     }
+
+/* botões da pagina*/
 
 /*imagem do header*/
 header img{
     text-align: center;
+    height: auto;
     width: 750px;
     max-width: 1000px;
     margin: 40px;
@@ -32,6 +36,14 @@ li{
     text-align: center;
 
 }
+/*imagens do body*/
+img{
+    display: inline-block;
+    border: 1px;
+    max-width: 300px;
+    max-height: 150px;
+}
+
 /*link sobre o autor*/
 footer{
     color:black;
