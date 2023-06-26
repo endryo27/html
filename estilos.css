@@ -1,11 +1,12 @@
 /*logo da pagina*/
 header h1 {
-    color: #67676669;
+    color: #04040469;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    background-color: rgba(41, 42, 42, 0.97);
+    background-color: rgba(92, 95, 95, 0.97);
     padding: 1em;
+    
 }
 
 /*imagem do header*/
@@ -22,7 +23,8 @@ body {
     padding: 1em;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(231, 223, 223);
+    display: inline-block;
 }
 
 a {
@@ -31,11 +33,20 @@ a {
 }
 
 /*botões de interação*/
-li {
-    text-align: center;
-
+nav li{
+    display: inline-block;
 }
-
+ul li {
+    text-align: center;
+    display: inline-block;
+}
+/*imagens do body*/
+img{
+    display: inline-block;
+    border: 1px;
+    max-width: 300px;
+    max-height: 150px;
+}
 /*link sobre o autor*/
 footer {
     color: black;
