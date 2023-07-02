@@ -9,7 +9,12 @@ header h1{
     top: 1px;
     }
 
-/* botões da pagina*/
+ /* botões da pagina*/
+nav:hover span{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*imagem do header*/
 header img{
@@ -37,11 +42,12 @@ li{
 
 }
 /*imagens do body*/
-img{
-    display: inline-block;
-    border: 1px;
-    max-width: 300px;
-    max-height: 150px;
+section img{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    max-width: min-content;
 }
 
 /*link sobre o autor*/
