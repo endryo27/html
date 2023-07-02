@@ -41,11 +41,12 @@ ul li {
     display: inline-block;
 }
 /*imagens do body*/
-img{
-    display: inline-block;
-    border: 1px;
-    max-width: 300px;
-    max-height: 150px;
+
+section img{
+    padding: 1em;
+    display: inline-flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
 }
 /*link sobre o autor*/
 footer {
